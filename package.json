@@ -19,8 +19,9 @@
     "test:watch": "jest --watch"
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "0.6.0",
-    "axios": "^1.6.2"
+    "@modelcontextprotocol/sdk": "^1.0.1",
+    "axios": "^1.6.2",
+    "dotenv": "^16.4.5"
   },
   "devDependencies": {
     "@types/jest": "^29.5.11",
