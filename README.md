@@ -1,6 +1,7 @@
 # kagi-server MCP Server
 
-[![smithery badge](https://smithery.ai/badge/kagi-server)](https://smithery.ai/protocol/kagi-server)
+[![smithery badge](https://smithery.ai/badge/kagi-server)](https://smithery.ai/server/kagi-server)
+
 MCP server for Kagi API integration
 
 This is a TypeScript-based MCP server that integrates the Kagi Search API. It demonstrates core MCP concepts by providing:
@@ -50,10 +51,10 @@ Make sure to add `.env` to your `.gitignore` file to keep your API key secure.
 
 ### Installing via Smithery
 
-To install Kagi Server for Claude Desktop automatically via [Smithery](https://smithery.ai/protocol/kagi-server):
+To install Kagi Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/kagi-server):
 
 ```bash
-npx @smithery/cli install kagi-server --client claude
+npx -y @smithery/cli install kagi-server --client claude
 ```
 
 To use with Claude Desktop, add the server config:
